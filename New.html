@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Debrief">
+<title>The Debrief</title>
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{--bg:#0e0c0b;--card:#1a1614;--line:#3a312a;--gold:#d8b878;--gold2:#a8854a;--ink:#f4ece0;--mute:#a39888;--rose:#c98f8a;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:radial-gradient(120% 60% at 50% 0,#2a201a 0,var(--bg) 60%) fixed;color:var(--ink);font:300 16px/1.5 Jost,system-ui,sans-serif;min-height:100vh}
+#app{max-width:520px;margin:0 auto;padding:28px 20px 60px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;margin:0}
+.eyebrow{letter-spacing:.32em;text-transform:uppercase;font-size:11px;color:var(--gold)}
+.hero h1{font-size:54px;line-height:1;margin:10px 0 8px;background:linear-gradient(120deg,#f6e6bf,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--mute);margin:0 0 26px;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:20px}
+.btn{display:block;width:100%;border:0;border-radius:999px;padding:17px;font:500 13px Jost,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#1a1208;background:linear-gradient(120deg,#f1dcae,var(--gold) 50%,var(--gold2));box-shadow:0 8px 30px #d8b87833;cursor:pointer}
+.btn.ghost{background:none;color:var(--gold);border:1px solid var(--gold2);box-shadow:none}
+.btn+.btn{margin-top:12px}
+.card{background:linear-gradient(160deg,#211b18,var(--card));border:1px solid var(--line);border-radius:20px;padding:20px;margin:18px 0}
+.card h3{font-size:26px;color:var(--gold);margin-bottom:4px}
+label,.lab{display:block;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin:18px 0 8px}
+input,select,textarea{width:100%;background:#120f0d;border:1px solid var(--line);border-radius:12px;color:var(--ink);padding:14px;font:300 16px Jost,sans-serif;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--gold)}
+textarea{min-height:92px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:9px 15px;font-size:14px;color:var(--mute);background:#120f0d;cursor:pointer;user-select:none}
+.chip.on{color:#1a1208;background:var(--gold);border-color:var(--gold)}
+.stars{display:flex;gap:6px}
+.star{font-size:30px;line-height:1;color:#43392f;cursor:pointer}
+.star.on{color:var(--gold);text-shadow:0 0 14px #d8b87866}
+.row{display:flex;justify-content:space-between;align-items:center}
+.prog{display:flex;gap:6px;margin:6px 0 22px}
+.prog i{flex:1;height:2px;background:var(--line);border-radius:2px}
+.prog i.on{background:var(--gold)}
+.note{border-left:2px solid var(--gold);padding:10px 14px;margin-top:14px;background:#d8b87810;border-radius:0 12px 12px 0;font-size:14px}
+.note b{color:var(--gold);font-weight:500}
+.mute{color:var(--mute);font-size:14px}
+.pill{display:inline-block;font-size:12px;color:var(--rose);border:1px solid #c98f8a55;border-radius:999px;padding:3px 10px;margin:2px 4px 2px 0}
+details{border-top:1px solid var(--line);padding:12px 0}
+details:first-of-type{border-top:0}
+summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary h3{font-size:21px;color:var(--ink)}
+.bar{height:5px;background:#120f0d;border-radius:5px;overflow:hidden;margin-top:5px}
+.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--gold2),var(--gold))}
+.back{background:none;border:0;color:var(--mute);font:400 13px Jost;letter-spacing:.15em;text-transform:uppercase;padding:0;cursor:pointer}
+.toast{position:fixed;left:50%;bottom:calc(30px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--gold);color:#1a1208;padding:12px 22px;border-radius:999px;font-weight:500}
+.irow{display:flex;gap:8px;margin-bottom:8px}.irow input:first-child{flex:2}.irow input+input{flex:1}.x{color:var(--mute);font-size:28px;padding:0 6px;cursor:pointer;align-self:center}
+.sig{margin:36px 0 0;text-align:center;color:var(--mute);font:italic 17px 'Cormorant Garamond',serif}
+</style></head><body><div id="app"></div>
+<script>
+var KEY='debrief.v1',R=[],d={},step=0,app=document.getElementById('app');
+try{R=JSON.parse(localStorage.getItem(KEY))||[]}catch(e){R=[]}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(R))}catch(e){toast('Couldn’t save on this device')}}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function toast(m){var t=document.createElement('div');t.className='toast';t.textContent=m;document.body.appendChild(t);setTimeout(function(){t.remove()},2400)}
+function venues(){var v={};R.forEach(function(r){if(r.venue)v[r.venue.trim()]=1});return Object.keys(v).sort()}
+function at(v){return R.filter(function(r){return (r.venue||'').trim().toLowerCase()===v.trim().toLowerCase()}).sort(function(a,b){return (b.date||'').localeCompare(a.date||'')})}
+var ISSUES=['Ran behind schedule','Poor light','Missed a key moment','Gear problem','Timeline too tight','Difficult family dynamics','No shot list','Ran out of time for portraits','Weak communication with planner','Felt rushed','Tired / low energy','Missed a detail shot'];
+var S=[
+{t:'The Day',s:'Set the scene.',f:[
+ ['couple','Couple','text'],['date','Date','date'],['venue','Venue','venue'],
+ ['vtype','Setting','choice',['Church','Barn','Hotel','Castle / estate','Outdoor','Registry office']],
+ ['light','Light on the day','choice',['Bright sun','Overcast','Low light','Mixed']]]},
+{t:'The Business',s:'Was it worth it?',f:[
+ ['price','Package price (£)','number'],['booked','Hours booked','number'],['worked','Hours actually worked (incl. editing)','number'],
+ ['source','How they found me','select',['Instagram','Referral','Venue recommendation','Google','Wedding fair','Repeat client','Other']],
+ ['ups','Upsells (optional)','items','upsell'],['exps','Expenses (optional)','items','expense']]},
+{t:'The Craft',s:'Rate it honestly. Five is flawless.',f:[
+ ['r_prep','Getting ready','stars'],['r_cer','Ceremony','stars'],['r_port','Couple portraits','stars'],['r_group','Group shots','stars'],['r_rec','Reception','stars'],['r_low','Low light & flash','stars'],['r_calm','How composed I felt','stars']]},
+{t:'The Lessons',s:'This is where you get better.',f:[
+ ['issues','What got in the way','chips',ISSUES],['wrong','What went wrong, specifically?','area'],['better','What I’d do differently','area'],['win','Something I nailed','area']]},
+{t:'The Client',s:'Did they feel looked after?',f:[
+ ['happy','How happy were they?','stars'],['fb','What they said','area'],
+ ['ref','Review or referral','choice',['Asked & received','Asked, waiting','Haven’t asked yet']]]},
+{t:'Venue Intel',s:'A gift to your future self.',f:[
+ ['access','Parking, access & rules','area'],['vendors','Vendor notes (planner, florist, coordinator, suppliers)','area'],['spots','Best portrait spots & timings','area'],['lnote','Light notes','area'],
+ ['promise','One promise for next time','area']]}];
+var LAB={r_prep:'Getting ready',r_cer:'Ceremony',r_port:'Portraits',r_group:'Groups',r_rec:'Reception',r_low:'Low light',r_calm:'Composure',happy:'Client happiness'};
+function home(){
+ var vs=venues();
+ var h='<div class="hero"><div class="eyebrow">Wedding photography</div><h1>The Debrief</h1><p>Every wedding, a little more extraordinary.</p></div>';
+ h+='<button class="btn" onclick="startNew()">Begin a new debrief</button>';
+ if(R.length){
+  h+='<div class="card"><h3>Venue memory</h3><div class="mute">Choose a venue to see what you learned there.</div><select id="vsel" onchange="showVenue(this.value)"><option value="">Select a venue…</option>'+vs.map(function(v){return'<option>'+esc(v)+'</option>'}).join('')+'</select><div id="vout"></div></div>';
+  h+=insights();
+  h+='<div class="card"><h3>Past weddings</h3>'+R.slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'')}).map(function(r){return detail(r)}).join('')+'</div>';
+  h+='<button class="btn ghost" onclick="backup()">Save a backup copy</button>';
+ }else h+='<div class="sig">Your first debrief starts the archive.</div>';
+ app.innerHTML=h;window.scrollTo(0,0)}
+function stars(v){var s='';for(var i=1;i<=5;i++)s+=i<=v?'★':'☆';return s}
+function detail(r){
+ var h='<details><summary><div class="row"><h3>'+esc(r.couple||'Untitled')+'</h3><span class="mute">'+esc(r.date||'')+'</span></div><div class="mute">'+esc(r.venue||'')+'</div></summary><div style="padding-top:10px">';
+ (r.issues||[]).forEach(function(i){h+='<span class="pill">'+esc(i)+'</span>'});
+ [['upsell','Upsell'],['expnote','Expenses'],['wrong','What went wrong'],['better','Do differently'],['win','Nailed it'],['access','Access'],['vendors','Vendors'],['spots','Best spots'],['lnote','Light'],['promise','Promise'],['fb','Client said']].forEach(function(p){if(r[p[0]])h+='<div class="note"><b>'+p[1]+'</b><br>'+esc(r[p[0]])+'</div>'});
+ h+=lines(r,'ups','Upsells')+lines(r,'exps','Expenses');
+ if(r.price&&r.worked){var net=r.price+sum(r,'ups','upsellamt')-sum(r,'exps','expenses');h+='<div class="mute" style="margin-top:12px">£'+Math.round(net/r.worked)+' per hour worked after expenses (£'+net+' net)</div>'}
+ return h+'<button class="back" style="margin-top:14px" onclick="del(\''+r.id+'\')">Delete</button></div></details>'}
+function vn(){try{return JSON.parse(localStorage.getItem('debrief.vn.v1'))||{}}catch(e){return{}}}
+function vnFor(v){var s=vn(),o=[];Object.keys(s).forEach(function(k){if(k.trim().toLowerCase()===(v||'').trim().toLowerCase())o=o.concat(s[k])});return o}
+function showVenue(v){var o=document.getElementById('vout');if(!v){o.innerHTML='';return}
+ o.innerHTML='<div class="lab">Venue notes</div>'+vnFor(v).map(function(x){return'<div class="note">'+esc(x.t)+' <span class="mute">'+esc(x.d)+'</span></div>'}).join('')+'<textarea id="vnt" style="margin-top:12px" placeholder="e.g. best light by the east window around 4pm"></textarea><button class="btn ghost" style="margin-top:10px" onclick="addVN()">Add a venue note</button><div class="lab">Past weddings here</div>'+at(v).map(function(r){return detail(r)}).join('')}
+function addVN(){var v=document.getElementById('vsel').value,t=document.getElementById('vnt').value.trim();if(!t)return;var s=vn();(s[v]=s[v]||[]).push({t:t,d:new Date().toISOString().slice(0,10)});try{localStorage.setItem('debrief.vn.v1',JSON.stringify(s));toast('Note added')}catch(e){toast('Couldn’t save on this device')}showVenue(v)}
+function insights(){
+ if(R.length<2)return'';
+ var c={},h='<div class="card"><h3>Patterns</h3><div class="mute">Across '+R.length+' weddings</div>';
+ R.forEach(function(r){(r.issues||[]).forEach(function(i){c[i]=(c[i]||0)+1})});
+ var top=Object.keys(c).sort(function(a,b){return c[b]-c[a]}).slice(0,4);
+ if(top.length){h+='<div class="lab">Recurring issues</div>';top.forEach(function(i){h+='<div class="row"><span>'+esc(i)+'</span><span class="mute">'+c[i]+'×</span></div><div class="bar"><span style="width:'+(c[i]/R.length*100)+'%"></span></div>'})}
+ h+='<div class="lab">Average ratings</div>';
+ Object.keys(LAB).forEach(function(k){var v=R.filter(function(r){return r[k]});if(v.length){var m=v.reduce(function(s,r){return s+r[k]},0)/v.length;h+='<div class="row" style="margin-top:8px"><span>'+LAB[k]+'</span><span class="mute">'+m.toFixed(1)+'</span></div><div class="bar"><span style="width:'+m*20+'%"></span></div>'}});
+ return h+'</div>'}
+function startNew(){d={id:'r'+Date.now(),date:new Date().toISOString().slice(0,10),issues:[],extras:[]};step=0;form()}
+function items(k,lab){var a=d[k]=d[k]&&d[k].length?d[k]:[{n:'',a:''}];
+ return a.map(function(x,i){return'<div class="irow"><input placeholder="Name" value="'+esc(x.n)+'" oninput="d.'+k+'['+i+'].n=this.value"><input type="number" inputmode="decimal" placeholder="£" value="'+esc(x.a)+'" oninput="d.'+k+'['+i+'].a=this.value===\'\'?\'\':+this.value"><span class="x" onclick="d.'+k+'.splice('+i+',1);form()">×</span></div>'}).join('')+'<button class="btn ghost" style="margin-top:10px" onclick="d.'+k+'.push({n:\'\',a:\'\'});form()">+ Add '+(a.length>0&&(a[0].n||a[0].a)?'another ':'')+lab+'</button>'}
+function sum(r,k,old){return (r[k]||[]).reduce(function(s,x){return s+(+x.a||0)},0)+(+r[old]||0)}
+function lines(r,k,t){var a=(r[k]||[]);return a.length?'<div class="note"><b>'+t+'</b>'+a.map(function(x){return'<br>'+esc(x.n)+(x.a!==''&&x.a!=null?' · £'+x.a:'')}).join('')+'</div>':''}
+function form(){
+ var st=S[step],h='<button class="back" onclick="home()">← Close</button><div class="prog">'+S.map(function(_,i){return'<i class="'+(i<=step?'on':'')+'"></i>'}).join('')+'</div>';
+ h+='<div class="eyebrow">Chapter '+(step+1)+' of '+S.length+'</div><div class="card"><h3 style="font-size:34px">'+st.t+'</h3><div class="mute" style="font-style:italic">'+st.s+'</div>';
+ st.f.forEach(function(f){var k=f[0],ty=f[2],v=d[k];h+='<label>'+f[1]+'</label>';
+  if(ty=='text'||ty=='date'||ty=='number')h+='<input type="'+ty+'" '+(ty=='number'?'inputmode="decimal" ':'')+'value="'+esc(v)+'" oninput="d[\''+k+'\']=this.value'+(ty=='number'?'===\'\'?\'\':+this.value':'')+'">';
+  else if(ty=='venue')h+='<input list="vl" value="'+esc(v)+'" placeholder="Start typing…" oninput="d.venue=this.value;vnote()"><datalist id="vl">'+venues().map(function(x){return'<option value="'+esc(x)+'">'}).join('')+'</datalist><div id="vn"></div>';
+  else if(ty=='area')h+='<textarea oninput="d[\''+k+'\']=this.value">'+esc(v)+'</textarea>';
+  else if(ty=='select')h+='<select onchange="d[\''+k+'\']=this.value"><option value="">Choose…</option>'+f[3].map(function(o){return'<option'+(v==o?' selected':'')+'>'+esc(o)+'</option>'}).join('')+'</select>';
+  else if(ty=='items')h+=items(k,f[3]);
+  else if(ty=='stars'){h+='<div class="stars">';for(var i=1;i<=5;i++)h+='<span class="star'+(v>=i?' on':'')+'" onclick="d[\''+k+'\']='+i+';form()">★</span>';h+='</div>'}
+  else{var multi=ty=='chips';h+='<div class="chips">'+f[3].map(function(o,i){var on=multi?(d[k]||[]).indexOf(o)>-1:v==o;return'<span class="chip'+(on?' on':'')+'" data-k="'+k+'" data-i="'+i+'" data-m="'+(multi?1:0)+'">'+esc(o)+'</span>'}).join('')+'</div>'}});
+ h+='</div><button class="btn" onclick="next()">'+(step==S.length-1?'Seal this debrief':'Continue')+'</button>'+(step?'<button class="btn ghost" onclick="step--;form()">Back</button>':'');
+ app.innerHTML=h;window.scrollTo(0,0);if(step==0)vnote()}
+function vnote(){var n=document.getElementById('vn');if(!n)return;var a=d.venue?at(d.venue).filter(function(r){return r.id!=d.id}):[],vs=vnFor(d.venue);
+ if(!a.length&&!vs.length){n.innerHTML='';return}
+ var h='<div class="note"><b>'+(a.length?'You’ve shot here '+a.length+(a.length>1?' times':' time')+'.':'Notes for this venue')+'</b>';
+ vs.forEach(function(x){h+='<br><span class="mute">Note: '+esc(x.t)+'</span>'});
+ a.slice(0,2).forEach(function(r){[['promise','Your promise'],['spots','Best spots'],['access','Access'],['vendors','Vendors'],['lnote','Light']].forEach(function(p){if(r[p[0]])h+='<br><span class="mute">'+p[1]+': '+esc(r[p[0]])+'</span>'})});
+ n.innerHTML=h+'</div>'}
+app.addEventListener('click',function(e){var c=e.target.closest('.chip');if(!c)return;var k=c.dataset.k,f=null;
+ S[step].f.forEach(function(x){if(x[0]==k)f=x});var o=f[3][+c.dataset.i];
+ if(c.dataset.m=='1'){d[k]=d[k]||[];var i=d[k].indexOf(o);i>-1?d[k].splice(i,1):d[k].push(o);c.classList.toggle('on')}
+ else{d[k]=o;[].forEach.call(c.parentNode.children,function(x){x.classList.remove('on')});c.classList.add('on')}});
+function next(){
+ if(step==0&&(!d.couple||!d.venue)){toast('Add the couple and venue first');return}
+ if(step<S.length-1){step++;form();return}
+ d.ups=(d.ups||[]).filter(function(x){return x.n||x.a!==''});d.exps=(d.exps||[]).filter(function(x){return x.n||x.a!==''});R.push(d);save();toast('Saved. Beautifully done.');home()}
+function del(id){if(confirm('Delete this debrief?')){R=R.filter(function(r){return r.id!=id});save();home()}}
+async function backup(){var data=JSON.stringify({reports:R,venueNotes:vn()},null,1);
+ try{if(window.claude){var dl=await claude.use('downloads');if(dl){await dl.save({filename:'debrief-backup.json',data:data});return}}}catch(e){}
+ try{var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:'application/json'}));a.download='debrief-backup.json';document.body.appendChild(a);a.click();a.remove()}catch(e){toast('Backup isn’t available here')}}
+home();
+</script></body></html>
